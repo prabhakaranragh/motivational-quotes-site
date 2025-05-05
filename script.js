@@ -8,8 +8,11 @@ const quotes = [
 
 function generateQuote() {
   const random = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quote-image").src = quotes[random].image;
+  const img = document.getElementById("quote-image");
+
+  img.classList.remove("loaded");
+  img.onload = () => img.classList.add("loaded");
+  img.src = quotes[random].image;
 }
 
 window.onload = generateQuote;
-
