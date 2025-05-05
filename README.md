@@ -4,24 +4,26 @@ A simple static website that displays motivational quotes with beautiful backgro
 
 ## Features
 
-- Displays a random motivational quote with a matching image
-- "Show Another" button to load a new quote and image
-- Fully responsive design
-- Built using HTML, CSS, and JavaScript
-- Free images from [Unsplash](https://unsplash.com)
+- Random motivational quote with an inspiring image
+- Button to refresh and show a new quote
+- Responsive layout (mobile and desktop)
+- Built with pure HTML, CSS, and JavaScript
+- Free to host on GitHub Pages
 
 ## How to Use
 
-1. Clone or download this repository
-2. Open `index.html` in your browser
-3. Click the "Show Another" button to refresh quotes
+1. Download or clone this repository.
+2. Open `index.html` in your browser.
+3. Click the "Show Another" button to load a new quote.
 
-## Live Demo
+## Hosting on GitHub Pages
 
-[Click here to view live](https://your-username.github.io/motivational-quotes-site)
+1. Create a GitHub repository (e.g., `motivational-quotes-site`)
+2. Upload the files (`index.html`, `style.css`, `script.js`, images, README.md`)
+3. Go to **Settings > Pages**
+4. Set source to `main` branch and `/ (root)` folder
+5. Save – your live site will appear in seconds!
 
 ## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
-
----
+Free for personal and educational use.
