@@ -39,3 +39,9 @@ button {
 button:hover {
   background: #0056b3;
 }
+#quote-image {
+  display: none;
+}
+#quote-image.loaded {
+  display: block;
+}
