@@ -23,7 +23,7 @@ const quotes = [
 
 function generateQuote() {
   const random = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quote-text").textContent = quotes[random].text;
+  
   document.getElementById("quote-image").src = quotes[random].image;
 }
 
